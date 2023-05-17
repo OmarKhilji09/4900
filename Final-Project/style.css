@@ -1,0 +1,730 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    scroll-behavior: smooth;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+img:hover {
+    opacity: .8;
+}
+.intro {
+    background: url(img/b1.png);
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    
+    
+    
+     
+
+    
+  }
+
+  .intro2 {
+    background: url(img/b2.jpg), radial-gradient(#444, rgba(17, 17, 17, 0.438));
+    background-blend-mode:soft-light;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center 150%;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    
+  }
+
+ 
+
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(28, 3, 3, 0.993);
+    border-bottom:2px black soild ;
+    justify-content:center;
+    align-items: center;
+    position: sticky;
+    top :0 ;
+    z-index: 1;
+
+ 
+}
+
+ul li {
+    color:yellow;
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px ;
+    font-size: 24px;
+    overflow: hidden;
+ 
+}
+ul li a {
+    color:yellow;
+    
+ 
+}
+
+ul li a:hover {
+    color:rgb(95, 117, 243);
+    
+ 
+}
+
+
+
+
+.button1 button {
+    float: right;
+    background-color: rgba(0, 136, 169, 1);
+    padding:  9px 25px;
+    margin: 30px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  all 0.3s ease 0s;
+    font-size: 16px ;
+    font-weight: bold;
+    color: yellow;
+    outline: none;
+    
+}
+
+ .button1 button:hover {
+
+  
+    background-color: rgb(219, 7, 7);
+    
+
+
+    
+}
+
+
+
+.about-us {
+    height: 60vh;
+    background: url(img/about-us.jpg), radial-gradient(#444, rgba(17, 17, 17, 0.438));
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.about-us:hover {
+    background-blend-mode: overlay;
+}
+
+.about-us h1 {
+    color: white;
+    font-size: 64px;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us-content {
+    width: 100%;
+    text-align: center;
+    padding: 20px;    
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.about-us-content p {
+    
+    margin: 30px 20px; 
+    font-size: 34px;
+    font-family:fantasy;
+}
+
+.about-us-Gallery {
+    display: flex;
+    width: 100%;
+   text-align: center;
+    padding: 20px;    
+    color: blanchedalmond;
+    background-color: black;
+    
+  
+}
+.about-us-Gallery img {
+    display: inline-block;
+    width: 700px;
+    height: 400px;
+    margin: 0 30px;
+  
+    
+}
+.about-us-Gallery h1 {
+    display: inline-block;
+    font-family:cursive ;
+    margin: auto 30px;
+   
+}
+
+.Reviews {
+    width: 100%;
+    text-align: center;
+     padding: 20px;    
+     color: blanchedalmond;
+     background-color: black;
+ }
+    
+
+ .Reviews h1 {
+     color:yellow;
+     font-family:fantasy;
+     letter-spacing: 5px;
+     font-size: 62px;
+
+ }
+
+ .Reviews hr {
+   opacity: .5;
+  
+
+}
+
+.Reviews p {
+
+    padding: 20px 0 ;
+    text-shadow: 2px .5px rgb(32, 32, 16);
+    font-size: 32px;
+}
+
+.locations {
+        display: flex;
+         width: 100%;  
+         color: blanchedalmond;
+         background-color: rgb(163, 163, 163);
+         
+     
+
+}
+
+.locations h1 {
+    color: white;
+    font-size: 64px;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+ 
+   
+}
+
+.locations h1:hover {
+    
+    color: yellow;
+}
+
+
+
+
+.locations-gallery1 {
+    height: 400px;
+    width: 50%;
+    background: url(img/bro.jpg), radial-gradient(#444, rgba(17, 17, 17, 0.438));
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+   
+   
+
+
+
+}
+
+.locations-gallery1:hover , .locations-gallery2:hover {
+    background-blend-mode:overlay;
+  
+
+
+}
+
+
+
+.locations-gallery2 {
+    height: 400px;
+    width: 50%;
+    background: url(img/bay.jpg), radial-gradient(#444, rgba(17, 17, 17, 0.438));
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+     display: flex;
+   
+   
+
+
+}
+
+
+footer {
+
+    background-color: rgb(31, 30, 30);
+    text-align: center;
+    border-top: 2px gray dotted;
+    height: 60px;
+    padding: 20px;
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .about-us-Gallery ,.about-us-Gallery img , .about-us-Gallery h1  {
+        display: block;
+        text-align: center;
+    }
+    
+    .about-us-Gallery img , .about-us-Gallery h1  {
+        margin: 0 auto;
+        width: 70%;
+        height: 50%;
+        font-size: 2vw;
+
+    }
+
+    .about-us-content p ,  .Reviews h1 , .Reviews p {
+
+        font-size: 2vw;
+        
+    }
+
+    header li , footer {
+        font-size: 2vw;
+    }
+
+    .intro {
+        
+        background-position-y :-100px ;
+        height: 80vh;
+        background-size: 190vw 100vh;
+        
+       
+        
+      }
+
+     
+
+      .locations , .locations-gallery1 , .locations-gallery2 , iframe {
+
+        display:block ;
+        width: 100%;
+      }
+
+
+      .locations h1  {
+          padding: 15vh 20vw ;
+          font-size: 9vw;
+      }
+      .about-us {
+          height: 30vh ;
+      }
+
+      .about-us h1 {
+         font-size: 9vw ;
+      }
+
+}
+    
+@media screen and (max-width: 550px) {
+
+    header , footer {
+
+        height: 5vh;
+    }
+    
+}
+
+/* The menu style  */
+
+.underline {
+    width: 70%;
+    height: 0.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: gold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro2 {
+    background: url(img/Menu/Menu-bar/1-Mobile-Menu-DowntownBrooklyn.jpg), radial-gradient(#444 , rgba(17, 17, 17, 0.438)  );
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+  }
+
+  .about-menu {
+    height: 60vh;
+    background: url(img/Menu/Menu-bar/about-menu.jpg), radial-gradient(#444, rgba(17, 17, 17, 0.438));
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.about-menu:hover {
+    background-blend-mode: overlay;
+}
+
+.about-menu h1 {
+    color: white;
+    font-size: 64px;
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-menu-content {
+    width: 100%;
+    text-align: center;
+    padding: 20px;    
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.about-menu-content h1 {
+
+    color: rgb(207, 37, 37);
+
+}
+.about-menu-content P {
+    font-family:'Courier New', Courier, monospace;
+}
+.menu-row {
+    display:flex;
+    background-color:black;
+    width: 100%;
+    
+    padding: 10px 60px;
+
+}
+
+.menu-gallery {
+    display: inline-flex;
+    width:50%;
+    height: 30vh;
+    margin: 10px;
+    
+
+}
+.menu-gallery img {
+    width: 50%;
+    border-radius: 20px;
+    
+}
+.menu-gallery-dec {
+    width: 50% ;
+    
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu-gallery-dec span {
+  
+    
+   color: yellow; 
+   margin-left: 5px;
+    padding: 5px;
+  
+}
+.menu-gallery-dec p {
+  
+ 
+    margin-top: 20px;
+}
+
+@media screen and (max-width:980px) {
+
+    .about-menu {
+        height: 30vh;
+    }
+    .about-menu h1 {
+        font-size: 5vw;
+    }
+   .about-menu-content h1  {
+       font-size: 4vw ;
+   }
+
+   .about-menu-content p  {
+    font-size: 3vw ;
+}
+
+   
+   
+    .menu-row {
+
+        display: block;
+        text-align: center;
+       
+    }
+    .menu-gallery {
+        margin: 50px auto;
+        width: 80vw;
+        
+    }
+
+
+    .menu-gallery-dec , .menu-gallery-dec span {
+        font-size: 3vw;
+        overflow: hidden;
+    }
+
+   
+
+    
+}
+
+
+
+/* The form style  */
+
+
+
+
+ .form h1 {
+    text-align: center;
+    padding: 20px;
+} 
+
+
+
+
+
+.glass {
+    background: linear-gradient(to right bottom, rgb(114, 114, 114),rgb(255, 103, 103)) ;
+    min-height: 60%;
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    text-align: left;
+    padding: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+  
+}
+
+label{
+padding-top: 5px;
+font-size: large;
+color: black;
+display: block;
+margin-left: 10px;
+
+
+}
+
+   input , textarea {
+    
+    width: 95%;
+    border: 20px;
+    border-bottom:2px  rgba(10, 0, 0, 0.37) solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    padding-top: 20px ;
+    padding: 10px;
+    color:gold;
+    font-size: 16px;
+
+}
+
+textarea {
+    max-width: 95%;
+    min-width: 95%;
+    min-height: 10rem;
+    
+}
+
+
+select {
+    
+    width: 100%;
+    border: 0;
+    border-bottom:2px  rgba(10, 0, 0, 0.37) solid;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    padding-top: 20px ;
+    padding: 10px;
+    color: gold;
+
+}
+
+
+input:valid  , textarea:valid {
+    
+    border: 0x;
+    border-bottom:2px  rgba(9, 255, 0, 0.37) solid;
+    border-radius: 10px;
+    
+    transition:  all .5s ease .5s;
+
+}
+
+input:hover , select:hover , textarea:hover{
+    background-color:gray ;
+    transition:  all .5s ease 0;
+
+    
+   
+}
+
+
+ 
+
+
+  input::placeholder  {
+
+   
+    color: rgb(104, 103, 103);
+    margin: 0;
+    font-size: 15px;
+    opacity: .5;
+    
+}
+
+[type='radio'] {
+    display:inline-flex ;
+    justify-content: space-between;
+    
+    
+    
+    padding: 10;
+
+    width: 20px;
+    
+    background-color: red;
+    
+
+}
+
+
+
+i {
+
+    font-size: 12px;
+    color: gold;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+
+}
+
+   
+    
+
+
+  
+[type='submit'] {
+    background-color: rgba(0, 136, 169, 1);
+    font-size: 16px;
+    transition: none;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:890px){
+    label , input::placeholder, textarea::placeholder{
+        font-size: 2vw;
+    }
+    .textarea {
+        height: 2px;
+        font-size: 2vw;
+
+    }
+
+
+}
+
+tr, td, th{
+    text-align: center;
+    /* border: 2px groove black ; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+   /* border-style:; */
+    
+}
+
+
+.tb2{
+
+    border-collapse:unset;
+    background-color: rgb(0, 43, 43);
+    border: 2px solid black;
+    width: auto ;
+    height: auto;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+
+
+}
+
+
+
+
+.tb2 button {
+
+    background-color: rgba(0, 136, 169, 1);
+    font-size: 24px;
+    transition: none;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    border-bottom:2px  rgba(10, 0, 0, 0.37) solid;
+    border-radius: 10px;
+    outline: none;
+    color:gold;
+    
+}
+
+.tb2 label {
+    margin: 10px;
+    color: rgb(6, 129, 41);
+}
+
